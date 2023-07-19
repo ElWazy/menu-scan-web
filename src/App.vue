@@ -1,4 +1,5 @@
 <script setup>
+import Chawi from './components/Chawi.vue';
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -11,7 +12,9 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Menu Scan 😎" />
+  <Chawi msg="Proyecto serio" />
+  <HelloWorld msg="Menuuu Scan 😎" />
+  
 </template>
 
 <style scoped>
