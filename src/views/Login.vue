@@ -27,20 +27,15 @@
         </div>
 
         <div class="derecha">
-            <img src="../assets/loginbanner.jpg"> 
+            <img src="@/assets/images/loginbanner.jpg"> 
         </div>
     </section>
+
+
+    
 </template>
 
-<script>
-export default {
-  // ...otros datos del componente
 
-  // Opciones del componente
-  options: {
-    style: `
-      @import "@/login.css";
-    `
-  }
-}
-</script>
+<style>
+    @import '@/assets/css/login.css';
+</style>

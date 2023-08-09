@@ -1,10 +1,18 @@
-<script setup>
-  import Login from './components/Login.vue';
+<script>
+import NavMenu from '@/components/NavMenu.vue';
+export default {
+    components:{ NavMenu}
+}
 </script>
 
 <template>
-  <Login />
+  <NavMenu/>
+  <div class="">
+    <router-view></router-view>
+  </div>
 </template>
+
+
 
 
 
