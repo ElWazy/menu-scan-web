@@ -1,5 +1,4 @@
 <template>
-    
     <section class="page-section bg-light" id="portfolio">
       <div class="container">
         <div class="text-center">
@@ -17,15 +16,13 @@
                 </a>
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading">
-                    Pollo ql ahwawkkaw
+                    El parrillero legendario 😎
                   </div>
-                  <div class="portfolio-caption-subheading text-muted fs-4">$ 3 CLP</div>
+                  <div class="portfolio-caption-subheading text-muted fs-4">$ 300.000.000 CLP</div>
                 </div>
               </div>
             </div>
-
         </div>
-
       </div>
     </section>
 </template>

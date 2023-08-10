@@ -1,19 +1,13 @@
 <script>
-import NavMenu from '@/components/NavMenu.vue';
+import NavMenu from '@/components/NavMenu.vue'
 export default {
-    components:{ NavMenu}
+  components: { NavMenu }
 }
 </script>
 
 <template>
-  <NavMenu/>
+  <NavMenu />
   <div class="">
     <router-view></router-view>
   </div>
 </template>
-
-
-
-
-
-
